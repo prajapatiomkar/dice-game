@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    background-color: rgb(61, 61, 61);
+    text-align: center;
+    color: #3D3D3D;
+    margin: 6%;
+}
+
+.dice_platform {
+    background-color: wheat;
+    display: inline-block;
+    padding: 2rem 5rem 1rem;
+    
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+
+}
+
+.dice_heading {
+    padding-top: 2rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.player_name {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.each_card {
+    display: inline-block;
+    margin: 2rem 0 0;
+    padding: 2rem 5rem;
+
+}
+
+.dice_count {
+    font-size: 10rem;
+}
+
+
+
+.dice_button {
+    padding: 1rem 2rem;
+    background-color: #3D3D3D;
+    color: #F5DEB3;
+}
+
+.dice_button:hover {
+    box-shadow: 1px 1px 0px #3D3D3D;
+}
+
+.dice_button:active {
+    box-shadow: 3px 3px 0px #000000;
+}
+
+
+@media all and (max-width:760px) {
+    * {
+        padding: 0;
+        margin: 0;
+
+    }
+body{
+    margin: 6%;
+}
+    .dice_platform {
+        padding: 0;
+        position: relative;
+        top: 15vh;
+        display: block;
+        
+        width: 100%;
+    }
+
+    .dice_heading {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 600;
+        display: inline-block;
+
+    }
+
+
+
+    .each_card {
+        margin: 1rem 0;
+        padding: 0 2rem;
+    }
+
+    .player_name {
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    .dice_count {
+        font-size: 5rem;
+    }
+
+
+    .dice_button {
+        margin: 1rem 0;
+        padding: 0.4rem 1rem;
+
+    }
+}
