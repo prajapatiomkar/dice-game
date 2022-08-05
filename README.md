@@ -1,2 +1,2 @@
 # dice-game
-# [✨Website link](https://dice-game-by-omkar.netlify.ap)
+# [✨Website link](https://dice-game-by-omkar.netlify.app/)
